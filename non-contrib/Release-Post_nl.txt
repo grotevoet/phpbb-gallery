@@ -1,0 +1,27 @@
+[b]MOD Naam:[/b] phpBB Galerij
+[b]Auteur:[/b] [url=http://www.flying-bits.org][b]nickvergessen[/b][/url]
+
+[b]MOD Versiw:[/b] 1.0.5
+[b]MOD Beschrijving:[/b]
+[list]Een afbeeldingengalerij die geïntegreerd wordt in je phpBB-forum.[/list]
+
+[b]Kenmerken:[/b] Voor een (bijna) volledig overzicht kijk op http://www.flying-bits.org/go/phpbb_gallery/features
+
+[b]Demo URL:[/b] http://www.flying-bits.org/gallery/index.php
+[b]Ondersteunde stijlen:[/b] prosilver, subsilver2
+[b]Ondersteunde taalpakketten:[/b] de, en, nl
+[list]meer talen kunnen [url=http://www.flying-bits.org/go/phpbb_gallery/translations]hier[/url] gevonden worden[/list]
+
+[b]Bron-lokaties[/b]: [list]
+[*][b]MOD Repository[/b]: http://github.com/nickvergessen/phpbb-gallery (GIT)
+[/list]
+[b]Fouten melding[/b]: http://www.flying-bits.org/go/bugtracker/
+(Voor je een fout rapporteert a.u.b. eerst even in de FAQ kijken, of er misschien al iets is dat je moet weten over de fout)
+
+
+[b]FAQ & Bekende problemen[/b]: http://www.flying-bits.org/go/phpbb_gallery/faq
+[b]Paypal-Donatie[/b]: Als deze MOD je bevalt, kun je je waardering laten blijken via een kleine [url=http://www.flying-bits.org/paypal.php]Paypal-Donatie[/url] (nickvergessen Q gmx.de / Q=@).
+
+[b]Downloads:[/b] [size=150][b][url=http://www.flying-bits.org/go/phpbb_gallery/download]Download v1.0.5[/url][/b][/size]
+[list][*][url=http://www.flying-bits.org/go/phpbb_gallery/translations]Taal-pakketten[/url]
+[*][url=http://www.flying-bits.org/go/phpbb_gallery/addons]Extra uitbreidingen[/url][/list]

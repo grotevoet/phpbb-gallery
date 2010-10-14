@@ -1,0 +1,76 @@
+[list]
+	[*]Instellingen/Diversen:
+	[list]
+		[*]Bestandsformaten: gif, jpeg & png
+		[*]Afbeeldinggrootte: bestandsgrootte, afbeeldinghoogte, afbeeldingbreedte
+		[*]Afbeeldingen verkleinen bij upload
+		[*]Centrale controle over het commentaren- & beoordelingsysteem (in-/uitschakelen)
+		[*]Miniaturen: GD-versie, kwaliteit en grootte
+		[*]Afbeeldingen beschikbaar in 3 groottes (miniatuur, middel, volledig)
+		[*]Verschillende optie voor het miniaturenoverzicht op album.php: aantal regels en kolommmen, opties om te tonen (gebruikersnaam, beoordeling, commentaren, tijd van plaatsen,...)
+		[*]RRC (recent-random-comment): little Addon displaying the recent images, random images and/or recent comments on the gallery/indey.php with full ACP-Control
+		[*]Naam van subfolder is aan te passen (standaard: gallery/)
+		[*]Zoekfunctie (ook beschikbaar in de Galerij) (pagina voor Recente/Willekeurige/Hoogst beoordeelde/Laatste commentaren/Eigen afbeeldingen)
+		[*]Highslide JS, Shadowbox en Lytebox ondersteuning (deze scripts moeten vanwege de licentiebepalingen apart gedownload worden)
+		[*]Diashow (Hiervoor moet een Plugin geïnstalleerd worden, see contrib/plugins)
+		[*]Beschikbaar in meerdere talen: http://www.flying-bits.org/go/phpbb_gallery/translations
+		[*]Beschikbare uitbreidingen: http://www.flying-bits.org/go/phpbb_gallery/addons
+	[/list]
+	[*]Integratie in phpBB:
+	[list]
+		[*]Verwijzing naar persoonlijke galerij op viewtopic (ACP-Optie)
+		[*]Aantal gebruikersafbeeldingen op viewtopic (ACP-Optie)
+		[*]Aantal afbeeldingen op index (ACP-Optie)
+		[*]Recente/Willekeurige afbeeldingen in het gebruikersprofiel (met volledige ACP-controle)
+		[*]BBcode om galerij afbeeldingen in teksten te kunnen gebruiken
+		[*]Standaard beschikbaar for Prosilver en subSilver2 stijlen
+		[*]Koppeling tussen galerij en Cash-MOD (zie gallery/includes/hookup_gallery.php voor meer informatie)
+	[/list]
+	[*]Albumbeheer / Permissie-beheer:
+	[list]
+		[*]Ongelimiteerde diepte sub...subalbums
+		[*]Kopieer permissies bij aanmaken of bewerken album
+		[*]Album-types: Categorie, album, wedstrijd (zie onder voor meer details)
+		[*]"Album gesloten"-optie
+		[*]Erf permissies van andere albums
+		[*]Groep-gebaseerde permissies
+		[*]Afbeelding-permissies: bekijk, bekijk zonder watermerk, upload, upload met goedkeuring, bewerk, verwijder, rapporteer, beoordeel
+		[*]Commentaar-permissies: bekijk, plaats, bewerk, verwijder
+		[*]Modereer-permissies: modereer commentaren, afbeeldingen: verwijder, bewerk, verplaats, rapport afhandeling, goedkeuren
+		[*]Verschillende permissies: Bekijk album, aantal toegestane afbeeldingen (ook ongelimiteerd), albums (voor persoonlijke galerijen)
+		[*]Persoonlijke galerijen (alleen uploaden door eigenaar), met subalbums en beheer via UCP
+	[/list]
+	[*]Afbeeldingen / Commentaren:
+	[list]
+		[*]Hotlink ("plaatjes lenen") preventie: ook met whitelist (toegestane adressen)
+		[*]Toon exif-data
+		[*]Watermerk: met minimum-breedte en -hoogte, om te voorkomen dat kleine afbeeldingen geheel afgedekt worden
+		[*]Rapporteer functie
+		[*]Upload meerdere afbeeldingen tegelijk (aantal in te stellen via ACP)
+		[*]Volledig gebruikersprofiel bij commentaren
+		[*]BBCodes, Custom-BBCodes en Smilies in commentaren en afbeeldingsbeschrijvingen
+		[*]Notificatie (Email & Jabber) bij nieuwe afbeeldingen of commentaren
+		[*]Optie voor favoriete afbeeldingen
+		[*]Volgende/Vorige verwijzing (met naam en miniatuur)
+		[*]Ungelezen-opmaak bij albums met nieuwe afbeeldingen
+	[/list]
+	[*]Beheerderspaneel (ACP):
+	[list]
+		[*]Statistich overzicht
+		[*]Waarschuwing bij Opwaardeermogelijkheid (als er een nieuwe versie beschikbaar is), voor Galerij en GD.
+		[*]Herstel van de waardering van een album
+		[*]Massa-import
+		[*]Onderhoud: mogelijkheid om afbeeldingen, commentaren of persoonlijke albums van verwijderde gebruikers weg te halen (of op anoniem/gast te zetten)
+	[/list]
+	[*]Wedstrijden:
+	[list]
+		[*]Initiële periode: Alleen uploaden, geen beoordelingen of commentaar, gebruikersnaam is verborgen
+		[*]Tweede periode: Niet meer uploaden, beoordelingen toegestaan, commentaren niet. Gebruikersnaam is nog verborgen
+		[*]Einde wedstrijd: Geen uploads of beoordelingen meer mogelijk, commentaren toegestaan. Gebruikersnaam wordt bekend gemaakt
+	[/list]
+	[*]Installatie:
+	[list]
+		[*]Volledige ondersteuning bij installatie en opwaarderen
+		[*]Converteren van Smartors "Album MOD" voor phpBB2 en visiblethunders "TS Gallery" voor phpBB3
+	[/list]
+[/list]
