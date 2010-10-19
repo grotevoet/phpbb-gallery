@@ -4,7 +4,7 @@
 * gallery_acp [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: gallery_acp.php 194 2010-03-01 15:11:42Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -30,6 +30,7 @@ $lang = array_merge($lang, array(
 	'ACP_IMPORT_ALBUMS'				=> 'Nieuw afbeeldingen importeren',
 	'ACP_IMPORT_ALBUMS_EXPLAIN'		=> 'Hier kan je meerdere afbeeldingen van de server importeren. Voor dat de afbeeldingen ge&iuml;mporteerd kunnen worden moeten ze handmatige gecontroleerd worden op groote.',
 
+	
 	'ADD_ALBUM_ON_TOP'				=> 'Voeg album bovenaan toe',
 	'ADD_PERMISSIONS'				=> 'Permissies toevoegen',
 	'ALBUM_ADMIN'					=> 'Album beheer',
@@ -112,7 +113,7 @@ $lang = array_merge($lang, array(
 	'COPY_PERMISSIONS'				=> 'Kopieer permissies van',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Als je kiest om de permissies te kopieeren dan krijgt het album rechten als die je hier nu selecteert. Als je geen album hebt geselecteerd moet je de permissies achteraf instellen.',
 	'COPY_PERMISSIONS_ALBUM_FROM_EXPLAIN'	=> 'Het bron-album waarvan je permissies wilt kopiëren.',
-	'COPY_PERMISSIONS_ALBUM_TO_EXPLAIN'		=> 'Het doel-album waar je de gekopieerde permissies op to wilt passen.',
+	'COPY_PERMISSIONS_ALBUM_TO_EXPLAIN'		=> 'Het doel-album waar je de gekopieerde permissies op toe wilt passen.',
 	'COPY_PERMISSIONS_CONFIRM'		=> 'Let op dat bestaande permissies in het doel-album overschreven worden.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Als je kiest om de permissies te kopieeren dan krijgt het album rechten als die je hier nu selecteert. Hiermee worden eventuele bestaande permissies overschreven.  Als je geen album selecteert worden de bestaande permissies behouden.',
 	'COPY_PERMISSIONS_FROM'			=> 'Kopieer permissies van',
@@ -125,14 +126,11 @@ $lang = array_merge($lang, array(
 	'DEFAULT_SORT_EXPLAIN'			=> 'Als je hier <samp>Standaard</samp> kiest, wordt de standaardinstelling uit de configuratie gebruikt.',
 	'DEFAULT_SORT_METHOD'			=> 'Standaard Sorteer Methode',
 	'DEFAULT_SORT_ORDER'			=> 'Standaard Sorteer Methode',
+	'DELETE_ALBUM_SUBS'				=> 'Verwijder a.u.b. eerst de subalbums',
 	'DELETE_ALL_IMAGES'				=> 'Verwijder Afbeeldingen',
-	'DELETE_SUBALBUMS'				=> 'Verwijder subalbums en hun afbeeldingen',
-	'DELETE_ALBUM'					=> 'Album verwijderen',
-	'DELETE_ALBUM_EXPLAIN'			=> 'Via het onderstaande formulier kun je een album verwijderen en bepalen of je de afbeeldingen wilt verwijderen of verplaatsen.',
-	'DELETE_ALBUM_SUBS'				=> 'Verwijder als eerste de subalbums',//@todo
 	'DELETE_IMAGES'					=> 'Verwijder Afbeeldingen',
-	'DELETE_PERMISSIONS'			=> 'Verwijder permissies',
-	'DELETE_SUBS'					=> 'Onderliggende albums verwijderen',
+	'DELETE_IMAGES'					=> 'Verwijder Afbeeldingen',
+	'DELETE_SUBALBUMS'				=> 'Verwijder subalbums en hun afbeeldingen',
 	'DISP_BIRTHDAYS'				=> 'Toon verjaardagen',
 	'DISP_EXIF_DATA'				=> 'Toon Exif-gegevens',
 	'DISP_EXIF_DATA_EXP'			=> 'Deze optie kan momenteel niet gebruikt worden omdat de functie "exif_read_data" niet in je PHP-installatie beschikbaar is.',

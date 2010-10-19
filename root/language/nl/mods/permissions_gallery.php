@@ -4,7 +4,7 @@
 * permissions_gallery [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: permissions_gallery.php 109 2009-03-18 19:41:37Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

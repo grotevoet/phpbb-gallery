@@ -4,7 +4,7 @@
 * install_gallery [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: install_gallery.php 194 2010-03-01 15:11:42Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -24,7 +24,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'BBCODES_NEEDS_REPARSE'			=> 'De BBCode needs to be rebuild.',
+	'BBCODES_NEEDS_REPARSE'			=> 'De BBCode moet opnieuw opgebouwd worden.',
 
 	'CAT_CONVERT'					=> 'converteer phpBB2',
 	'CAT_CONVERT_TS'				=> 'converteer TS Gallery',
@@ -88,10 +88,11 @@ $lang = array_merge($lang, array(
 	'OPTIONAL_IMAGEROTATE_EXPLAIN'	=> 'Alsde funtcie bestaat kun je afbeeldingen draaien tijdens het uploaden en bewerken.',
 
 	'PAYPAL_DEV_SUPPORT'			=> '</p><div class="errorbox">
-<h3>Opmerking van de auteur</h3>
-<p>Het maken, onderhouden en bijwerken van deze MOD vraagt veel tijd en moeite, dus als je deze MOD waardeert en die waardering ook via een donatie wilt laten blijken, dan wordt dat zeer op prijs gesteld. Mijn Paypal account is <strong>nickvergessen@gmx.de</strong>, of neem contact met me op voor mijn postadres.<br /><br />Het voorgestelde donatiebedrag voor deze MOD is 25,00€ (maar alle beetjes helpen).</p><br />
-<a href="http://www.flying-bits.org/go/paypal"><input type="submit" value="Doe PayPal-Donatie" name="paypal" id="paypal" class="button1" /></a>
+	<h3>Opmerking van de auteur</h3>
+	<p>Het maken, onderhouden en bijwerken van deze MOD vraagt veel tijd en moeite, dus als je deze MOD waardeert en die waardering ook via een donatie wilt laten blijken, dan wordt dat zeer op prijs gesteld. Mijn Paypal account is <strong>nickvergessen@gmx.de</strong>, of neem contact met me op voor mijn postadres.<br /><br />Het voorgestelde donatiebedrag voor deze MOD is 25,00€ (maar alle beetjes helpen).</p><br />
+	<a href="http://www.flying-bits.org/go/paypal"><input type="submit" value="Doe PayPal-Donatie" name="paypal" id="paypal" class="button1" /></a>
 </div><p>',
+
 	'PHP_SETTINGS'					=> 'PHP instellingen',
 	'PHP_SETTINGS_EXP'				=> 'Deze PHP instellingen zijn verplicht voor het installeren en draaien van de galerij.',
 	'PHP_SETTINGS_OPTIONAL'			=> 'Optionle PHP instelingen',

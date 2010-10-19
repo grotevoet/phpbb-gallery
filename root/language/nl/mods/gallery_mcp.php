@@ -4,7 +4,7 @@
 * gallery_mcp [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: gallery_mcp.php 93 2009-02-12 19:13:56Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -85,6 +85,7 @@ $lang = array_merge($lang, array(
 	'REPORT_A_OPEN2'				=> 'Rapportage openen?',
 	'REPORT_A_OPEN2_CONFIRM'		=> 'Weet je zeker dat je deze rapportage wilt openen?',
 
+	'REPORT_NOT_FOUND'				=> 'De rapportage kan niet gevonden worden.',
 	'REPORT_STATUS_1'				=> 'Deze rapportage moet bekeken worden.',
 	'REPORT_STATUS_2'				=> 'Deze rapportage is gesloten.',
 

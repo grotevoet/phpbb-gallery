@@ -4,7 +4,7 @@
 * info_acp_gallery [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: info_acp_gallery.php 171 2009-08-18 21:09:49Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
@@ -49,8 +49,10 @@ $lang = array_merge($lang, array(
 	'PERSONAL_ALBUM'					=> 'Persoonlijk album',
 	'PHPBB_GALLERY'						=> 'phpBB Galerij',
 
-	'TOTAL_IMAGES_OTHER'				=> 'Aantal afbeeldingen <strong>%d</strong>',
-	'TOTAL_IMAGES_ZERO'					=> 'Geen afbeeldingen',
+	'TOTAL_IMAGES_SPRINTF'				=> array(
+		0		=> 'Aantal afbeeldingen <strong>0</strong>',
+		1		=> 'Aantal afbeeldingen <strong>%d</strong>',
+	),
 ));
 
 ?>

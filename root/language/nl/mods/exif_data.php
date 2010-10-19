@@ -4,7 +4,7 @@
 * exif_data [Nederlands]
 * 
 * @package phpBB Gallery / NV Exif Data
-* @version $Id: exif_data.php 83 2008-12-30 09:48:39Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *

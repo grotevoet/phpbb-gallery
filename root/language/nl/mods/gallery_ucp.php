@@ -4,7 +4,7 @@
 * gallery_ucp [Nederlands]
 *
 * @package phpBB Gallery
-* @version $Id: gallery_ucp.php 191 2010-01-27 18:43:39Z GroteVoet $
+* @version $Id$
 * @copyright (c) 2007 nickvergessen nickvergessen@gmx.de http://www.flying-bits.org
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
